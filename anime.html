@@ -17,7 +17,7 @@
       <div class="header__wrapper">
 
         <div class="header__logo">
-          <a href="index.html" class="header__logo-link">
+          <a href="#" class="header__logo-link">
             <img src="img/svg/логотип.svg" alt="ANILIN" class="header__logo-pic">
           </a>
         </div>
@@ -25,15 +25,20 @@
         <nav class="header__nav">
           <u1 class="header__list">
             <li class="header__item">
-              <a href="index.html" class="header__link">Главная</a>
+              <a href="#" class="header__link">Главная</a>
             </li>
             <li class="header__item">
-              <a href="#" class="header__link"> Аниме</a>
+              <a href="anime.html" class="header__link"> Аниме</a>
             </li>
           </u1>
         </nav>
         <div class="header__login">
           <ul class="header__login-list">
+            <li class=" header__search">
+              <form class="header__form" method="GET">
+                <input id="search" type="search" placeholder="Поиск">
+              </form>
+            </li>
             <li class="header__login-item">
               <a href="#" class="header__link"> Регистрация</a>
             </li>
@@ -54,33 +59,49 @@
         <p class="intro__subtitle">
           Новинки!
         </p>
-        <div class="intro__item">
-          <div class="intro__anime">
+        <!-- <ul class="intro__item">
+          <li class="intro__anime">
             <a href="/" class="intro__anime-link">
               <img src="img/image 1.png" alt="anime1" class="intro__anime-pic">
+
             </a>
-            <a href="/" class="intro__names-link"> Годзилла: Точка сингулярности</a>
-          </div>
-          <div class="intro__anime">
+             <a href="/" class="intro__names-link"> Годзилла: Точка сингулярности</a> 
+            Годзилла: Точка сингулярности
+          </li>
+          <li class="intro__anime">
             <a href="/" class="intro__anime-link">
               <img src="img/image 2.png" alt="anime2" class="intro__anime-pic">
             </a>
             <a href="/" class="intro__names-link">Сальто назад!</a>
-          </div>
-          <div class="intro__anime">
+          </li>
+          <li class="intro__anime">
             <a href="/" class="intro__anime-link">
               <img src="img/image 3.png" alt="anime3" class="intro__anime-pic">
             </a>
             <a href="" class="intro__names-link">Не издевайся надо мной, Нагаторо</a>
-          </div>
-          <div class="intro__anime">
+          </li>
+          <li class="intro__anime">
             <a href="/" class="intro__anime-link">
               <img src="img/image 4.png" alt="anime4" class="intro__anime-pic">
             </a>
             <a href="/" class="intro__names-link">Дневники слизи</a>
-          </div>
+          </li>
+        </ul> -->
+        <div>
+          <ul class="ul">
+            <li> <img src="img/image 1.png" alt="">
+              Годзилла: Точка сингулярности</li>
+            <li> <img src="img/image 2.png" alt="">
+              Сальто назад!</li>
+            <li> <img src="img/image 3.png" alt="">
+              Не издевайся надо мной, Нагаторо</li>
+            <li> <img src="img/image 4.png" alt="">
+              Дневники слизи</li>
+          </ul>
         </div>
-        <footer class="footer">
+      </div>
+      <footer class="footer">
+        <div class="container">
           <div class="footer__item">
             <div class="footer__vk">
               <a href="/" class="footer__vk-link">
@@ -112,10 +133,11 @@
               </u1>
             </nav>
           </div>
-        </footer>
-      </div>
+        </div>
+      </footer>
     </section>
   </main>
+  <script src="js/main.js"></script>
 </body>
 
 </html>
